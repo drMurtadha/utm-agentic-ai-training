@@ -3,6 +3,8 @@
 **Time:** 35 minutes  
 **Output:** Completed one-page agent design
 
+**Copy/paste support:** Use Sections 1–3 of `copy-paste-prompt-pack.md` for task selection, scope review, workflow design, and success criteria.
+
 ## Scenario
 
 Choose a repetitive, low-risk task from teaching, research support, administration, or student services. Use only synthetic or approved information.
@@ -20,4 +22,3 @@ Choose a repetitive, low-risk task from teaching, research support, administrati
 ## Peer review
 
 Exchange designs. The reviewer should ask: Is the goal observable? Are permissions bounded? Can the agent stop safely? How will the team know it worked?
-
