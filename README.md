@@ -2,6 +2,13 @@
 
 Working repository for designing, facilitating, and distributing the UTM Agentic AI Training programme.
 
+## Participant web portal
+
+The participant-facing GitHub Pages portal is stored in `docs/`. It provides a mobile-friendly agenda, web access to the copy/paste prompt pack, and direct links to the training files.
+
+- Portal: `https://drmurtadha.github.io/utm-agentic-ai-training/`
+- GitHub Pages source: branch `agent/initial-training-materials`, folder `/docs`
+
 ## Confirmed session
 
 - Topic: Memanfaatkan Agentic AI untuk Meningkatkan Produktiviti Harian
