@@ -1,6 +1,6 @@
 # Exercise 2 — Build and Test
 
-**Masa:** 25 minit dalam Modul 1 atau aktiviti lanjutan
+**Time:** 60 minutes  
 **Output:** Prototype, test record, and two-minute demonstration
 
 **Copy/paste support:** Use Sections 4–9 of `copy-paste-prompt-pack.md` to draft instructions, run tests, evaluate outputs, improve failures, and plan a responsible pilot.

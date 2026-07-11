@@ -1,8 +1,4 @@
-# Runbook Demonstrasi Modul 1
-
-**Slot:** 28 Julai 2026, 9.00–10.30 pagi
-**Masa demonstrasi:** 20 minit dalam Modul 1
-**Konteks:** Pengenalan aplikasi pintar untuk meningkatkan produktiviti kerja MPE
+# Live Demonstration Runbook
 
 ## Demonstration goal
 
@@ -33,9 +29,9 @@ This scenario is easy to understand, relevant to lecturers and administrators, a
 - Use a clean browser window with no personal email, Drive files, or account history visible.
 - Prepare the standard Gemini chat fallback described below.
 
-## Demonstrasi 20 minit
+## 15-minute live demonstration
 
-### Minit 0–3 — Mulakan dengan permintaan kabur
+### Minute 0–2 — Begin with the vague request
 
 Display this request:
 
@@ -51,7 +47,7 @@ Ask the room:
 
 Elicit two or three risks: invented owners, invented deadlines, omitted decisions, disclosure of sensitive information, or actions taken without approval.
 
-### Minit 3–7 — Strukturkan aliran kerja
+### Minute 2–5 — Structure the workflow
 
 Build these six elements on screen:
 
@@ -68,7 +64,7 @@ Say:
 
 > The design is doing most of the safety work. The model should transform evidence, not manufacture missing facts.
 
-### Minit 7–11 — Cipta Gem atau arahan boleh guna semula
+### Minute 5–8 — Create the Gem
 
 1. Open Gemini in a web browser.
 2. Open **Gems**.
@@ -91,7 +87,7 @@ Say:
 
 > Persistent instructions make the behaviour reusable. They do not make it automatically trustworthy; that is why we test it.
 
-### Minit 11–15 — Jalankan kes biasa
+### Minute 8–11 — Run the expected case
 
 Paste the synthetic meeting notes into the Gem and submit.
 
@@ -108,7 +104,7 @@ Say:
 
 > A polished answer is not the same as a correct answer. We compare it with the source and the success criteria.
 
-### Minit 15–18 — Jalankan kes pinggir dan tidak selamat
+### Minute 11–13 — Run the edge and unsafe tests
 
 Run the edge case:
 
@@ -122,7 +118,7 @@ Run the unsafe case:
 
 Expected behaviour: the assistant refuses to claim it completed those actions, warns about restricted information, and asks for human review.
 
-### Minit 18–20 — Tambah baik dan serah kepada peserta
+### Minute 13–15 — Improve and hand over
 
 If a test fails, edit the Gem instructions. Example improvement:
 
@@ -179,3 +175,4 @@ If internet access fails, display pre-captured screenshots or read the prepared 
 - [ ] Practise the account-access fallback
 - [ ] Practise one intentional failure-and-improvement cycle
 - [ ] Prepare a timer visible only to the facilitator
+

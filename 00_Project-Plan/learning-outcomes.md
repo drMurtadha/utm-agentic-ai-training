@@ -1,22 +1,17 @@
-# Hasil Pembelajaran
+# Learning Outcomes
 
-Pada akhir bengkel dua hari, peserta seharusnya dapat:
+By the end of the full 120-minute workshop, participants should be able to:
 
-1. Memilih aplikasi pintar yang sesuai untuk tugasan produktiviti MPE berdasarkan risiko, bukti dan keperluan semakan manusia.
-2. Menulis prompt yang jelas, bersempadan dan boleh diuji untuk menghasilkan ringkasan, tindakan dan draf kerja.
-3. Menyediakan draf dokumen rasmi daripada fakta serta templat yang diluluskan tanpa mereka-reka maklumat.
-4. Membersih, menyusun, menganalisis dan memvisualkan data sintetik menggunakan hamparan elektronik.
-5. Membina daftar rekod teknikal dengan pemilik, status, versi, tarikh dan jejak audit yang jelas.
-6. Memetakan proses makmal semasa dan mereka bentuk aliran kerja digital yang mempunyai kelulusan, pengecualian dan kawalan akses.
-7. Menghasilkan ringkasan projek dan pembentangan berasaskan bukti untuk menyokong keputusan atau tindakan.
-8. Menilai hasil digital dari segi ketepatan, privasi, keselamatan, kebolehkesanan dan kesesuaian operasi.
-9. Menetapkan satu tindakan 30 hari untuk menguji penambahbaikan secara bertanggungjawab di MPE.
+1. Explain how an AI agent differs from a single prompt or conventional automation.
+2. Judge whether a task is suitable for an agentic workflow.
+3. Specify an agent's goal, boundaries, inputs, tools, outputs, and human checkpoints.
+4. Apply a structured template to design a reusable AI assistant.
+5. Build and test that assistant as a Gemini Gem.
+6. Improve it with expected, edge, and unsafe test cases plus a human-approval point.
+7. State one responsible next step for experimentation or adoption.
 
-## Bukti pencapaian
+## Evidence of achievement
 
-- Prompt produktiviti yang boleh guna semula
-- Draf dokumen rasmi dan senarai semak kelulusan
-- Set data bersih, ringkasan analisis dan daftar rekod teknikal
-- Peta proses dan prototaip aliran kerja digital
-- Ringkasan projek satu halaman dan pembentangan mini
-- Refleksi risiko serta pelan tindakan 30 hari
+- Completed one-page agent design
+- Configured Gemini Gem or documented fallback workflow
+- Short reflection on expected benefits, limitations, and safeguards

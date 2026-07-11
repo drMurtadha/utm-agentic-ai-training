@@ -1,6 +1,6 @@
 # Copy/Paste Prompt Pack
 
-Use this pack during the Bengkel Transformasi Digital MPE. Replace text in `[square brackets]` before submitting a prompt. Use only synthetic, public, or institutionally approved information. Do not paste personal data, assessment records, credentials, confidential research, or unpublished institutional material into an unapproved AI tool.
+Use this pack during the UTM Agentic AI Training. Replace text in `[square brackets]` before submitting a prompt. Use only synthetic, public, or institutionally approved information. Do not paste personal data, assessment records, credentials, confidential research, or unpublished institutional material into an unapproved AI tool.
 
 ## 1. Choose a suitable task
 
