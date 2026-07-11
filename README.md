@@ -33,7 +33,8 @@ Portal GitHub Pages untuk peserta disimpan dalam folder [`docs/`](docs/). Portal
 - [`04_Hands-on-Exercises/`](04_Hands-on-Exercises/) — latihan praktikal dan bahan contoh
   - [Latihan 1: Reka Bentuk Ejen](04_Hands-on-Exercises/exercise-1-design-an-agent.md)
   - [Latihan 2: Bina dan Uji](04_Hands-on-Exercises/exercise-2-build-and-test.md)
-  - [Prompt salin dan tampal](04_Hands-on-Exercises/copy-paste-prompt-pack.md)
+  - [Prompt English](04_Hands-on-Exercises/copy-paste-prompt-pack.md)
+  - [Prompt Bahasa Malaysia](04_Hands-on-Exercises/copy-paste-prompt-pack-ms.md)
   - [Arahan Pembantu Tindakan Mesyuarat](04_Hands-on-Exercises/sample-materials/meeting-assistant-gem-instructions.md)
   - [Kes ujian Pembantu Tindakan Mesyuarat](04_Hands-on-Exercises/sample-materials/meeting-assistant-test-cases.md)
   - [Nota mesyuarat sintetik](04_Hands-on-Exercises/sample-materials/synthetic-meeting-notes.md)
@@ -55,4 +56,4 @@ Mulakan dengan [runbook demonstrasi](02_Facilitator-Guide/live-demo-runbook.md).
 
 ## Prompt peserta
 
-Gunakan [prompt salin dan tampal](04_Hands-on-Exercises/copy-paste-prompt-pack.md) untuk pemilihan tugasan, reka bentuk ejen, arahan Gemini Gem, pengujian, penilaian, penambahbaikan dan pelaksanaan rintis yang bertanggungjawab.
+Gunakan [prompt English](04_Hands-on-Exercises/copy-paste-prompt-pack.md) atau [prompt Bahasa Malaysia](04_Hands-on-Exercises/copy-paste-prompt-pack-ms.md) untuk pemilihan tugasan, reka bentuk ejen, arahan Gemini Gem, pengujian, penilaian, penambahbaikan dan pelaksanaan rintis yang bertanggungjawab.

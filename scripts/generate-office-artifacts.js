@@ -155,5 +155,7 @@ async function generateSlides() {
 
 (async () => {
   await generateDocs();
-  if (process.env.DOCS_ONLY !== "1") await generateSlides();
+  // The reviewed Malay visual deck in 01_Slides is maintained separately.
+  // Set GENERATE_LEGACY_SLIDES=1 only when the older plain deck is required.
+  if (process.env.GENERATE_LEGACY_SLIDES === "1") await generateSlides();
 })().catch(err => { console.error(err); process.exit(1); });

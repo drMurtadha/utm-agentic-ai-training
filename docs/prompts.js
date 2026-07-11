@@ -1,4 +1,6 @@
-const SOURCE = "https://raw.githubusercontent.com/drMurtadha/utm-agentic-ai-training/agent/initial-training-materials/04_Hands-on-Exercises/copy-paste-prompt-pack.md";
+const file = document.body.dataset.source || "copy-paste-prompt-pack.md";
+const language = document.body.dataset.language || "en";
+const SOURCE = `https://raw.githubusercontent.com/drMurtadha/utm-agentic-ai-training/agent/initial-training-materials/04_Hands-on-Exercises/${file}`;
 const container = document.querySelector("#prompt-content");
 const search = document.querySelector("#prompt-search");
 
@@ -16,7 +18,7 @@ function render(markdown) {
       if (!inCode) { inCode = true; code = []; }
       else {
         const value = code.join("\n").trim();
-        html += `<div class="prompt-card" data-search="${escapeHtml(value.toLowerCase())}"><button class="copy" type="button">Salin prompt</button><pre><code>${escapeHtml(value)}</code></pre></div>`;
+        html += `<div class="prompt-card" data-search="${escapeHtml(value.toLowerCase())}"><button class="copy" type="button">${language === "ms" ? "Salin prompt" : "Copy prompt"}</button><pre><code>${escapeHtml(value)}</code></pre></div>`;
         inCode = false;
       }
       continue;
@@ -33,8 +35,8 @@ function render(markdown) {
     button.addEventListener("click", async () => {
       const value = button.parentElement.querySelector("code").textContent;
       await navigator.clipboard.writeText(value);
-      button.textContent = "Disalin ✓";
-      setTimeout(() => { button.textContent = "Salin prompt"; }, 1600);
+      button.textContent = language === "ms" ? "Disalin ✓" : "Copied ✓";
+      setTimeout(() => { button.textContent = language === "ms" ? "Salin prompt" : "Copy prompt"; }, 1600);
     });
   });
 }
@@ -43,7 +45,7 @@ fetch(SOURCE)
   .then((response) => { if (!response.ok) throw new Error("Tidak dapat memuatkan prompt."); return response.text(); })
   .then(render)
   .catch(() => {
-    container.innerHTML = `<p class="notice">Prompt pack tidak dapat dimuatkan. <a href="https://github.com/drMurtadha/utm-agentic-ai-training/blob/agent/initial-training-materials/04_Hands-on-Exercises/copy-paste-prompt-pack.md">Buka terus di GitHub →</a></p>`;
+    container.innerHTML = `<p class="notice">${language === "ms" ? "Himpunan prompt tidak dapat dimuatkan" : "The prompt pack could not be loaded"}. <a href="https://github.com/drMurtadha/utm-agentic-ai-training/blob/agent/initial-training-materials/04_Hands-on-Exercises/${file}">${language === "ms" ? "Buka di GitHub" : "Open on GitHub"} →</a></p>`;
   });
 
 search.addEventListener("input", () => {
