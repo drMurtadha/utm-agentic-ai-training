@@ -2,7 +2,7 @@
 
 ## Matlamat demonstrasi
 
-Tunjukkan cara menukarkan permintaan tempat kerja yang kabur kepada pembantu AI boleh guna semula yang mempunyai skop jelas dalam Gemini Gems, kemudian menguji dan menambah baiknya. Demonstrasi hanya menggunakan maklumat sintetik.
+Tunjukkan cara menukarkan permintaan tempat kerja yang kabur kepada pembantu AI boleh guna semula yang mempunyai skop jelas dalam Gemini Gems, kemudian menguji dan menambah baiknya. Demonstrasi utama menggunakan maklumat sintetik; aktiviti lanjutan boleh menggunakan petikan mesyuarat sebenar yang telah dipendekkan dan dinyahidentiti.
 
 ## Senario demonstrasi
 
@@ -23,7 +23,8 @@ Senario ini mudah difahami, berkaitan dengan tugas pensyarah dan pentadbir serta
   - runbook ini;
   - `sample-materials/synthetic-meeting-notes.md`;
   - `sample-materials/meeting-assistant-gem-instructions.md`;
-  - `sample-materials/meeting-assistant-test-cases.md`.
+  - `sample-materials/meeting-assistant-test-cases.md`;
+  - `sample-materials/real-meeting-training-case-ms.md` untuk aktiviti audit lanjutan.
 - Besarkan paparan pelayar dan teks editor supaya boleh dibaca oleh peserta.
 - Matikan pemberitahuan komputer.
 - Gunakan tetingkap pelayar bersih tanpa e-mel, fail Drive atau sejarah akaun peribadi.
@@ -137,6 +138,18 @@ Peserta boleh mengenal pasti:
 - perbezaan antara output berguna dengan output yang telah disahkan;
 - cara kes ujian mendedahkan kelemahan; dan
 - lokasi kelulusan manusia dalam aliran kerja.
+
+## Aktiviti lanjutan 10 minit — transkrip sebenar yang dinyahidentiti
+
+Jika masa dan akses platform mengizinkan:
+
+1. berikan `real-meeting-training-case-ms.md` kepada peserta;
+2. jalankan Prompt 1 dan Prompt 2 dalam pembantu yang telah dibina;
+3. minta peserta menanda setiap output sebagai keputusan, cadangan, tindakan bersyarat atau maklumat tidak lengkap;
+4. dedahkan audit jawapan rujukan pada penghujung fail; dan
+5. tekankan bahawa audio asal ialah rujukan fasilitator sahaja dan tidak boleh dimuat naik atau diedarkan.
+
+Jika fasilitator mahu memainkan audio, gunakan petikan 00:57:24–01:03:37 daripada salinan tempatan. Beritahu peserta bahawa transkrip latihan telah dipendekkan, dinyahidentiti dan bukan transkrip kata demi kata.
 
 ## Jika output langsung salah
 

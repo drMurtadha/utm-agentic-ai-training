@@ -5,6 +5,6 @@
 .env
 .venv/
 node_modules/
+private-source/
 07_Final-Distribution/*
 !07_Final-Distribution/.gitkeep
-
