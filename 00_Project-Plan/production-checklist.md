@@ -1,36 +1,37 @@
-# Production Checklist
+# Senarai Semak Produksi
 
-## Content
+## Kandungan
 
-- [ ] Audience, duration, platform, and delivery language confirmed
-- [ ] Advertised 60-minute slot reconciled with the proposed 120-minute agenda
-- [ ] Learning outcomes aligned across deck, guide, workbook, and exercises
-- [ ] Examples use synthetic or approved data
-- [ ] Safety, privacy, limitations, and human oversight are explicit
-- [ ] Timing includes breaks, questions, and recovery buffer
+- [x] Tarikh, masa, penceramah dan lima modul diselaraskan dengan Lampiran A
+- [x] Aktiviti, alat dan hasil peserta ditetapkan bagi setiap blok modul
+- [x] Hasil pembelajaran diselaraskan dengan jadual dua hari
+- [x] Keselamatan data, batas alat dan semakan manusia dinyatakan
+- [ ] Set data sintetik Modul 3 disahkan
+- [ ] Senario proses makmal Modul 4 disahkan oleh wakil MPE
+- [ ] Templat dokumen rasmi dan projek yang diluluskan diterima
 
-## Technical readiness
+## Kesediaan teknikal
 
-- [ ] Participant accounts and permissions tested
-- [ ] Participants asked to bring a personal Google account
-- [ ] Gemini Gems creation tested from a personal account and a university-managed account
-- [ ] ChatGPT Free prompt-testing fallback prepared
-- [ ] Venue connectivity, display, audio, and power checked
-- [ ] Demo environment tested from a clean participant account
-- [ ] Offline screenshots or fallback demonstration prepared
-- [ ] Sample materials and expected outputs verified
+- [ ] Gemini dan ChatGPT diuji pada akaun peserta
+- [ ] Microsoft 365 atau Google Workspace disahkan tersedia
+- [ ] Excel/Sheets, Forms dan PowerPoint/Slides diuji
+- [ ] Demonstrasi Power Automate atau Apps Script diuji
+- [ ] Sambungan internet, paparan, audio dan bekalan kuasa diperiksa
+- [ ] Fail luar talian, tangkap layar dan output contoh disediakan
+- [ ] Folder latihan peserta dan kaedah perkongsian fail disahkan
 
-## Quality assurance
+## Jaminan kualiti
 
-- [ ] Slides checked in presentation mode
-- [ ] Speaker notes and facilitator cues reviewed
-- [ ] DOCX files checked for pagination, tables, and accessibility
-- [ ] Links and references verified
-- [ ] Independent reviewer completes the exercises from instructions only
+- [ ] Semua slaid diperiksa dalam mod pembentangan
+- [ ] Nota penyampaian dan masa setiap modul dilatih
+- [ ] Dokumen Word diperiksa dari segi halaman, jadual dan kebolehcapaian
+- [ ] Semua pautan dan arahan alat disahkan semula sebelum bengkel
+- [ ] Seorang penguji bebas melengkapkan aktiviti menggunakan arahan sahaja
+- [ ] Semua contoh bebas daripada data peribadi atau operasi sebenar
 
-## Distribution
+## Pengedaran
 
-- [ ] Version and date appear on final artifacts
-- [ ] Editable source files retained outside the distribution folder
-- [ ] Final PDF/Office exports copied to `07_Final-Distribution/`
-- [ ] Participant-data and licensing checks completed
+- [ ] Versi dan tarikh dinyatakan pada artifak akhir
+- [ ] Fail boleh sunting disimpan di luar folder pengedaran
+- [ ] Fail PDF dan Office akhir disalin ke `07_Final-Distribution/`
+- [ ] Semakan lesen, privasi dan pemilikan bahan selesai

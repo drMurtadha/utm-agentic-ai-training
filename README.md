@@ -1,13 +1,14 @@
-# UTM Agentic AI Training
+# Bengkel Transformasi Digital MPE
 
-Working repository for designing, facilitating, and distributing the UTM Agentic AI Training programme.
+Repositori kerja untuk mereka bentuk, menyampaikan dan mengedarkan bahan Bengkel Transformasi Digital dan Pemerkasaan Operasi Pintar Makmal Penyelidikan Elektrik (MPE).
 
-## Confirmed session
+## Bengkel disahkan
 
-- Topic: Memanfaatkan Agentic AI untuk Meningkatkan Produktiviti Harian
-- Speaker: PM Dr. Mohd Murtadha Mohamad
-- Date: 21 Julai 2026 (Selasa)
-- Time: 10.00 pagi – 11.00 pagi
+- Tajuk: Transformasi Digital dan Pemerkasaan Operasi Pintar Makmal Penyelidikan Elektrik (MPE)
+- Penceramah: Prof. Madya Dr. Mohd Murtadha Mohamad
+- Tarikh: 28–29 Julai 2026 (Selasa–Rabu)
+- Masa modul: 9.00 pagi–4.30 petang setiap hari
+- Rujukan: Lampiran A, Surat Lantikan Penceramah
 
 ## Project map
 

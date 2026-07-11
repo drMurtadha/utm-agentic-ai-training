@@ -1,13 +1,13 @@
 # Exercise 1 — Design an Agent
 
-**Time:** 35 minutes  
+**Masa:** 25 minit dalam Modul 1
 **Output:** Completed one-page agent design
 
 **Copy/paste support:** Use Sections 1–3 of `copy-paste-prompt-pack.md` for task selection, scope review, workflow design, and success criteria.
 
-## Scenario
+## Senario
 
-Choose a repetitive, low-risk task from teaching, research support, administration, or student services. Use only synthetic or approved information.
+Pilih tugasan MPE yang berulang dan berisiko rendah. Gunakan maklumat sintetik atau yang diluluskan sahaja.
 
 ## Instructions
 
