@@ -1,36 +1,36 @@
 # Production Checklist
 
-## Content
+## Kandungan
 
-- [ ] Audience, duration, platform, and delivery language confirmed
+- [ ] Peserta, tempoh, platform dan bahasa penyampaian disahkan
 - [x] Tempoh latihan dua jam diselaraskan dengan agenda 120 minit
-- [ ] Learning outcomes aligned across deck, guide, workbook, and exercises
-- [ ] Examples use synthetic or approved data
-- [ ] Safety, privacy, limitations, and human oversight are explicit
-- [ ] Timing includes breaks, questions, and recovery buffer
+- [ ] Hasil pembelajaran diselaraskan merentas slaid, panduan, buku kerja dan latihan
+- [ ] Contoh menggunakan data sintetik atau yang diluluskan
+- [ ] Keselamatan, privasi, batasan dan pengawasan manusia dinyatakan dengan jelas
+- [ ] Masa merangkumi rehat, soalan dan ruang pemulihan
 
-## Technical readiness
+## Kesediaan teknikal
 
-- [ ] Participant accounts and permissions tested
-- [ ] Participants asked to bring a personal Google account
-- [ ] Gemini Gems creation tested from a personal account and a university-managed account
-- [ ] ChatGPT Free prompt-testing fallback prepared
-- [ ] Venue connectivity, display, audio, and power checked
-- [ ] Demo environment tested from a clean participant account
-- [ ] Offline screenshots or fallback demonstration prepared
-- [ ] Sample materials and expected outputs verified
+- [ ] Akaun dan kebenaran peserta diuji
+- [ ] Peserta diminta membawa akaun Google peribadi
+- [ ] Penciptaan Gemini Gems diuji menggunakan akaun peribadi dan akaun universiti
+- [ ] Pelan gantian pengujian prompt melalui ChatGPT Free disediakan
+- [ ] Internet, paparan, audio dan bekalan kuasa lokasi diperiksa
+- [ ] Persekitaran demonstrasi diuji menggunakan akaun peserta yang bersih
+- [ ] Tangkap layar luar talian atau demonstrasi gantian disediakan
+- [ ] Bahan contoh dan output yang dijangka disahkan
 
-## Quality assurance
+## Jaminan kualiti
 
-- [ ] Slides checked in presentation mode
-- [ ] Speaker notes and facilitator cues reviewed
-- [ ] DOCX files checked for pagination, tables, and accessibility
-- [ ] Links and references verified
-- [ ] Independent reviewer completes the exercises from instructions only
+- [ ] Slaid diperiksa dalam mod pembentangan
+- [ ] Nota penceramah dan petunjuk fasilitator disemak
+- [ ] Fail DOCX diperiksa dari segi halaman, jadual dan kebolehcapaian
+- [ ] Pautan dan rujukan disahkan
+- [ ] Penyemak bebas melengkapkan latihan berdasarkan arahan sahaja
 
-## Distribution
+## Pengedaran
 
-- [ ] Version and date appear on final artifacts
-- [ ] Editable source files retained outside the distribution folder
-- [ ] Final PDF/Office exports copied to `07_Final-Distribution/`
-- [ ] Participant-data and licensing checks completed
+- [ ] Versi dan tarikh dipaparkan pada artifak akhir
+- [ ] Fail sumber boleh sunting disimpan di luar folder pengedaran
+- [ ] Eksport PDF dan Office akhir disalin ke `07_Final-Distribution/`
+- [ ] Semakan data peserta dan pelesenan selesai

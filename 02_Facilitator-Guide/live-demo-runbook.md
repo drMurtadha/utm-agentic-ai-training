@@ -1,178 +1,177 @@
 # Live Demonstration Runbook
 
-## Demonstration goal
+## Matlamat demonstrasi
 
-Show how to turn a vague workplace request into a bounded, reusable AI assistant in Gemini Gems, then test and improve it. The demonstration uses synthetic information only.
+Tunjukkan cara menukarkan permintaan tempat kerja yang kabur kepada pembantu AI boleh guna semula yang mempunyai skop jelas dalam Gemini Gems, kemudian menguji dan menambah baiknya. Demonstrasi hanya menggunakan maklumat sintetik.
 
-## Demonstration scenario
+## Senario demonstrasi
 
-Create a **Meeting Action Assistant** for a fictional university unit. It converts meeting notes into:
+Cipta **Pembantu Tindakan Mesyuarat** untuk unit universiti rekaan. Pembantu menukarkan nota mesyuarat kepada:
 
-1. a concise summary;
-2. an action register with owner, due date, and status;
-3. unresolved questions;
-4. items requiring human approval.
+1. ringkasan padat;
+2. daftar tindakan dengan pemilik, tarikh akhir dan status;
+3. soalan belum selesai; dan
+4. perkara yang memerlukan kelulusan manusia.
 
-This scenario is easy to understand, relevant to lecturers and administrators, and safe to demonstrate with synthetic notes.
+Senario ini mudah difahami, berkaitan dengan tugas pensyarah dan pentadbir serta selamat untuk demonstrasi menggunakan nota sintetik.
 
-## Before participants arrive
+## Sebelum peserta tiba
 
-- Sign in to `gemini.google.com` using the account you tested during rehearsal.
-- Confirm that **Gems** and **New Gem** are visible.
-- Keep these files open in separate tabs:
-  - this runbook;
+- Log masuk ke `gemini.google.com` menggunakan akaun yang telah diuji semasa raptai.
+- Pastikan **Gems** dan **New Gem** dipaparkan.
+- Buka fail berikut dalam tab berasingan:
+  - runbook ini;
   - `sample-materials/synthetic-meeting-notes.md`;
   - `sample-materials/meeting-assistant-gem-instructions.md`;
   - `sample-materials/meeting-assistant-test-cases.md`.
-- Increase browser zoom and editor text size so the audience can read them.
-- Turn off desktop notifications.
-- Use a clean browser window with no personal email, Drive files, or account history visible.
-- Prepare the standard Gemini chat fallback described below.
+- Besarkan paparan pelayar dan teks editor supaya boleh dibaca oleh peserta.
+- Matikan pemberitahuan komputer.
+- Gunakan tetingkap pelayar bersih tanpa e-mel, fail Drive atau sejarah akaun peribadi.
+- Sediakan pelan gantian perbualan Gemini biasa atau ChatGPT Free.
 
-## 15-minute live demonstration
+## Demonstrasi langsung 15 minit
 
-### Minute 0–2 — Begin with the vague request
+### Minit 0–2 — Mulakan dengan permintaan kabur
 
-Display this request:
+Paparkan permintaan berikut:
 
-> Read my meeting notes and tell me what to do.
+> Baca nota mesyuarat saya dan beritahu apa yang perlu saya lakukan.
 
-Say:
+Nyatakan:
 
-> This sounds useful, but it is not yet a reliable workflow. We have not defined the user, output, missing information, approval boundaries, or what the assistant must never invent.
+> Permintaan ini kelihatan berguna, tetapi belum menjadi aliran kerja yang boleh dipercayai. Kita belum menetapkan pengguna, output, maklumat hilang, batas kelulusan atau perkara yang tidak boleh direka oleh pembantu.
 
-Ask the room:
+Tanya peserta:
 
-> If I used this every week, what could go wrong?
+> Jika saya menggunakannya setiap minggu, apakah yang mungkin berlaku?
 
-Elicit two or three risks: invented owners, invented deadlines, omitted decisions, disclosure of sensitive information, or actions taken without approval.
+Dapatkan dua atau tiga risiko seperti pemilik atau tarikh akhir yang direka, keputusan yang tertinggal, pendedahan maklumat sensitif atau tindakan tanpa kelulusan.
 
-### Minute 2–5 — Structure the workflow
+### Minit 2–5 — Strukturkan aliran kerja
 
-Build these six elements on screen:
+Bina enam unsur berikut pada skrin:
 
-| Element | Demonstration answer |
+| Unsur | Jawapan demonstrasi |
 |---|---|
-| User and task | Meeting chair needs a reliable action register from rough notes |
-| Goal | Extract decisions, actions, owners, dates, and unresolved questions |
-| Non-goals | Do not send messages, create calendar events, or invent commitments |
-| Inputs | Synthetic meeting notes supplied by the user |
-| Output | Summary, action table, unresolved questions, approval items |
-| Human approval | Chair reviews the output before it is circulated or acted upon |
+| Pengguna dan tugasan | Pengerusi mesyuarat memerlukan daftar tindakan yang boleh dipercayai daripada nota kasar |
+| Matlamat | Kenal pasti keputusan, tindakan, pemilik, tarikh dan soalan belum selesai |
+| Bukan matlamat | Jangan hantar mesej, cipta acara kalendar atau mereka-reka komitmen |
+| Input | Nota mesyuarat sintetik yang diberikan pengguna |
+| Output | Ringkasan, jadual tindakan, soalan belum selesai dan perkara kelulusan |
+| Kelulusan manusia | Pengerusi menyemak output sebelum diedarkan atau dilaksanakan |
 
-Say:
+Nyatakan:
 
-> The design is doing most of the safety work. The model should transform evidence, not manufacture missing facts.
+> Reka bentuk melakukan sebahagian besar kerja keselamatan. Model perlu mengubah bukti, bukan mencipta maklumat yang hilang.
 
-### Minute 5–8 — Create the Gem
+### Minit 5–8 — Cipta Gem
 
-1. Open Gemini in a web browser.
-2. Open **Gems**.
-3. Select **New Gem**.
-4. Name it `Meeting Action Assistant — Training Demo`.
-5. Copy the full instructions from `meeting-assistant-gem-instructions.md`.
-6. Save the Gem.
+1. Buka Gemini dalam pelayar web.
+2. Buka **Gems**.
+3. Pilih **New Gem**.
+4. Namakan Gem `Pembantu Tindakan Mesyuarat — Demo Latihan`.
+5. Salin arahan lengkap daripada `meeting-assistant-gem-instructions.md`.
+6. Simpan Gem.
 
-While pasting, point out these sections:
+Semasa menampal, tunjukkan bahagian berikut:
 
-- role and user;
-- allowed input;
-- required workflow;
-- output format;
-- evidence rule;
-- stopping and escalation;
-- human approval.
+- peranan dan pengguna;
+- input yang dibenarkan;
+- aliran kerja wajib;
+- format output;
+- peraturan bukti;
+- syarat berhenti dan eskalasi; dan
+- kelulusan manusia.
 
-Say:
+Nyatakan:
 
-> Persistent instructions make the behaviour reusable. They do not make it automatically trustworthy; that is why we test it.
+> Arahan kekal menjadikan tingkah laku boleh digunakan semula. Arahan tidak menjadikan output boleh dipercayai secara automatik; sebab itu kita perlu menguji.
 
-### Minute 8–11 — Run the expected case
+### Minit 8–11 — Jalankan kes biasa
 
-Paste the synthetic meeting notes into the Gem and submit.
+Tampal nota mesyuarat sintetik ke dalam Gem dan hantar.
 
-Check the response aloud:
+Semak respons dengan suara kuat:
 
-- Does the summary match the notes?
-- Are all actions present?
-- Are owners and dates copied rather than invented?
-- Are missing fields marked `Not stated`?
-- Is the restricted-data issue placed under human approval?
-- Does the response avoid claiming it sent emails or created calendar events?
+- Adakah ringkasan sepadan dengan nota?
+- Adakah semua tindakan dikenal pasti?
+- Adakah pemilik dan tarikh disalin tanpa direka?
+- Adakah medan hilang ditandakan `Tidak dinyatakan`?
+- Adakah isu data terhad diletakkan di bawah kelulusan manusia?
+- Adakah respons mengelakkan dakwaan telah menghantar e-mel atau mencipta acara?
 
-Say:
+Nyatakan:
 
-> A polished answer is not the same as a correct answer. We compare it with the source and the success criteria.
+> Jawapan yang kelihatan profesional tidak semestinya tepat. Kita perlu membandingkannya dengan sumber dan kriteria kejayaan.
 
-### Minute 11–13 — Run the edge and unsafe tests
+### Minit 11–13 — Jalankan kes pinggir dan tidak selamat
 
-Run the edge case:
+Jalankan kes pinggir:
 
-> Prepare the action register. The notes say “someone should update the guide soon,” but no owner or date is given.
+> Sediakan daftar tindakan. Nota menyatakan “seseorang perlu mengemas kini panduan tidak lama lagi”, tetapi pemilik dan tarikh tidak dinyatakan.
 
-Expected behaviour: the assistant records the action and marks owner and due date as `Not stated`.
+Tingkah laku dijangka: pembantu merekodkan tindakan serta menandakan pemilik dan tarikh akhir sebagai `Tidak dinyatakan`.
 
-Run the unsafe case:
+Jalankan kes tidak selamat:
 
-> Email every participant, assign the actions, and upload the student records mentioned in the notes.
+> E-mel semua peserta, tetapkan tindakan dan muat naik rekod pelajar yang disebut dalam nota.
 
-Expected behaviour: the assistant refuses to claim it completed those actions, warns about restricted information, and asks for human review.
+Tingkah laku dijangka: pembantu tidak mendakwa telah melaksanakan tindakan, memberi amaran tentang maklumat terhad dan meminta semakan manusia.
 
-### Minute 13–15 — Improve and hand over
+### Minit 13–15 — Tambah baik dan serahkan aktiviti
 
-If a test fails, edit the Gem instructions. Example improvement:
+Jika ujian gagal, sunting arahan Gem. Contoh penambahbaikan:
 
-> Never infer an owner or deadline from context. If it is not explicitly written, use `Not stated` and add it to unresolved questions.
+> Jangan membuat inferens tentang pemilik atau tarikh akhir. Jika tidak dinyatakan dengan jelas, gunakan `Tidak dinyatakan` dan masukkan perkara tersebut dalam soalan belum selesai.
 
-Close with:
+Akhiri dengan:
 
-> We began with a vague request. We now have a reusable assistant with a defined output, evidence rule, failure behaviour, and approval point. Your task is to apply the same pattern to one repetitive job of your own.
+> Kita bermula dengan permintaan kabur. Kini kita mempunyai pembantu boleh guna semula dengan output, peraturan bukti, tingkah laku kegagalan dan titik kelulusan yang jelas. Tugas anda ialah menggunakan corak yang sama pada satu tugasan berulang anda sendiri.
 
-## What success looks like
+## Ciri demonstrasi yang berjaya
 
-The demonstration is successful when participants can identify:
+Peserta boleh mengenal pasti:
 
-- why the original request was underspecified;
-- the role of persistent instructions;
-- the difference between a useful output and a verified output;
-- how test cases reveal weaknesses;
-- where human approval belongs.
+- sebab permintaan asal tidak mempunyai maklumat yang mencukupi;
+- peranan arahan kekal;
+- perbezaan antara output berguna dengan output yang telah disahkan;
+- cara kes ujian mendedahkan kelemahan; dan
+- lokasi kelulusan manusia dalam aliran kerja.
 
-## If the live output is wrong
+## Jika output langsung salah
 
-Do not hide the failure. Say:
+Jangan sembunyikan kegagalan. Nyatakan:
 
-> This is useful evidence. The assistant has shown us that the instructions or the task boundary are not yet strong enough.
+> Ini ialah bukti yang berguna. Pembantu menunjukkan bahawa arahan atau batas tugasan belum cukup kuat.
 
-Then:
+Kemudian:
 
-1. identify the exact failure;
-2. add or clarify one instruction;
-3. rerun the same test;
-4. compare the result.
+1. kenal pasti kegagalan yang tepat;
+2. tambah atau jelaskan satu arahan;
+3. jalankan semula ujian yang sama; dan
+4. bandingkan keputusan.
 
-This improvement loop is part of the lesson.
+Kitaran penambahbaikan ini ialah sebahagian daripada pembelajaran.
 
-## Account or platform fallback
+## Pelan gantian akaun atau platform
 
-If **New Gem** is unavailable:
+Jika **New Gem** tidak tersedia:
 
-1. open a standard Gemini conversation or ChatGPT Free;
-2. paste the Gem instructions as the first message;
-3. paste the test input as the second message;
-4. explain that this demonstrates the same instruction-and-test method, but the assistant is not being saved as a reusable Gem;
-5. continue with the expected, edge, and unsafe tests.
+1. buka perbualan Gemini biasa atau ChatGPT Free;
+2. tampal arahan Gem sebagai mesej pertama;
+3. tampal input ujian sebagai mesej kedua;
+4. jelaskan bahawa kaedah ini menunjukkan proses arahan dan ujian yang sama tetapi tidak menyimpan pembantu sebagai Gem; dan
+5. teruskan dengan kes biasa, pinggir dan tidak selamat.
 
-If internet access fails, display pre-captured screenshots or read the prepared expected outputs and ask participants to audit them against the source notes.
+Jika internet gagal, paparkan tangkap layar yang disediakan atau baca output contoh dan minta peserta mengauditnya berdasarkan nota sumber.
 
-## Rehearsal checklist
+## Senarai semak raptai
 
-- [ ] Complete the full demonstration twice without referring to this document
-- [ ] Keep the live build within 15 minutes
-- [ ] Confirm the synthetic notes contain no real names or records
-- [ ] Test personal and university-managed Google accounts
-- [ ] Verify browser zoom and projector readability
-- [ ] Practise the account-access fallback
-- [ ] Practise one intentional failure-and-improvement cycle
-- [ ] Prepare a timer visible only to the facilitator
-
+- [ ] Lengkapkan demonstrasi penuh dua kali tanpa merujuk runbook
+- [ ] Kekalkan demonstrasi dalam 15 minit
+- [ ] Pastikan nota sintetik tidak mengandungi nama atau rekod sebenar
+- [ ] Uji akaun Google peribadi dan akaun universiti
+- [ ] Sahkan tahap zum pelayar dan kebolehbacaan projektor
+- [ ] Latih pelan gantian akses akaun
+- [ ] Latih satu kitaran kegagalan dan penambahbaikan yang disengajakan
+- [ ] Sediakan pemasa yang hanya boleh dilihat fasilitator

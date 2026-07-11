@@ -1,17 +1,17 @@
 # Learning Outcomes
 
-By the end of the two-hour workshop, participants should be able to:
+Pada akhir bengkel dua jam, peserta seharusnya dapat:
 
-1. Explain how an AI agent differs from a single prompt or conventional automation.
-2. Judge whether a task is suitable for an agentic workflow.
-3. Specify an agent's goal, boundaries, inputs, tools, outputs, and human checkpoints.
-4. Apply a structured template to design a reusable AI assistant.
-5. Build and test that assistant as a Gemini Gem.
-6. Improve it with expected, edge, and unsafe test cases plus a human-approval point.
-7. State one responsible next step for experimentation or adoption.
+1. Menjelaskan perbezaan antara ejen AI dengan satu prompt atau automasi konvensional.
+2. Menilai sama ada sesuatu tugasan sesuai untuk aliran kerja agentic.
+3. Menetapkan matlamat, batas, input, alat, output dan titik semakan manusia bagi ejen.
+4. Menggunakan templat berstruktur untuk mereka bentuk pembantu AI boleh guna semula.
+5. Membina dan menguji pembantu tersebut sebagai Gemini Gem.
+6. Menambah baik pembantu menggunakan kes biasa, kes pinggir dan kes tidak selamat serta satu titik kelulusan manusia.
+7. Menyatakan satu langkah seterusnya yang bertanggungjawab untuk percubaan atau penggunaan.
 
-## Evidence of achievement
+## Bukti pencapaian
 
-- Completed one-page agent design
-- Configured Gemini Gem or documented fallback workflow
-- Short reflection on expected benefits, limitations, and safeguards
+- Reka bentuk ejen satu halaman yang lengkap
+- Gemini Gem yang dikonfigurasi atau aliran kerja gantian yang didokumenkan
+- Refleksi ringkas tentang manfaat, batasan dan kawalan keselamatan

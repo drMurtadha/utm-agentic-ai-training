@@ -1,38 +1,37 @@
 # Synthetic Meeting Notes
 
-**Fictional unit:** Digital Learning Support Team  
-**Date:** 14 July 2026  
-**Purpose:** Planning a short staff workshop
+**Unit rekaan:** Pasukan Sokongan Pembelajaran Digital
+**Tarikh:** 14 Julai 2026
+**Tujuan:** Merancang bengkel ringkas untuk kakitangan
 
-## Notes
+## Nota
 
-- The team agreed to run a pilot workshop for 20 staff members.
-- Aina will prepare the first draft of the participant guide by 17 July 2026.
-- Kumar will test the registration form. No due date was recorded.
-- Someone should update the facilitator checklist soon.
-- The team discussed using synthetic documents in all demonstrations. This was accepted.
-- The venue has not been confirmed. Farid will check Room B12 and report back by 16 July 2026.
-- A spreadsheet containing staff dietary requirements was mentioned. The chair said it must not be uploaded to an unapproved AI tool.
-- The team may send a reminder to participants, but no sender, wording, or sending date was agreed.
-- Next review: 18 July 2026 at 10.00 pagi.
+- Pasukan bersetuju menjalankan bengkel rintis untuk 20 orang kakitangan.
+- Aina akan menyediakan draf pertama panduan peserta sebelum 17 Julai 2026.
+- Kumar akan menguji borang pendaftaran. Tiada tarikh akhir direkodkan.
+- Seseorang perlu mengemas kini senarai semak fasilitator tidak lama lagi.
+- Pasukan membincangkan penggunaan dokumen sintetik dalam semua demonstrasi. Cadangan ini diterima.
+- Lokasi belum disahkan. Farid akan memeriksa Bilik B12 dan melaporkan semula sebelum 16 Julai 2026.
+- Satu hamparan yang mengandungi keperluan diet kakitangan disebut. Pengerusi menegaskan bahawa fail itu tidak boleh dimuat naik ke alat AI yang tidak diluluskan.
+- Pasukan mungkin menghantar peringatan kepada peserta, tetapi penghantar, kandungan dan tarikh penghantaran belum dipersetujui.
+- Semakan seterusnya: 18 Julai 2026 pada 10.00 pagi.
 
-## Ground-truth audit
+## Audit jawapan sebenar
 
-Expected explicit decisions:
+Keputusan jelas yang dijangka:
 
-- Run a pilot workshop for 20 staff members.
-- Use synthetic documents in all demonstrations.
+- Jalankan bengkel rintis untuk 20 orang kakitangan.
+- Gunakan dokumen sintetik dalam semua demonstrasi.
 
-Expected actions:
+Tindakan yang dijangka:
 
-- Aina — prepare the first draft of the participant guide — 17 July 2026.
-- Kumar — test the registration form — due date not stated.
-- Owner not stated — update the facilitator checklist — due date not stated.
-- Farid — check Room B12 and report back — 16 July 2026.
+- Aina — sediakan draf pertama panduan peserta — 17 Julai 2026.
+- Kumar — uji borang pendaftaran — tarikh akhir tidak dinyatakan.
+- Pemilik tidak dinyatakan — kemas kini senarai semak fasilitator — tarikh akhir tidak dinyatakan.
+- Farid — periksa Bilik B12 dan laporkan semula — 16 Julai 2026.
 
-Items requiring clarification or approval:
+Perkara yang memerlukan penjelasan atau kelulusan:
 
-- Who owns the facilitator-checklist update, and what does “soon” mean?
-- Who will send the participant reminder, using what wording, and when?
-- The dietary-requirements spreadsheet must not be entered into an unapproved AI tool.
-
+- Siapakah pemilik kemas kini senarai semak fasilitator dan apakah maksud “tidak lama lagi”?
+- Siapakah yang akan menghantar peringatan peserta, menggunakan kandungan apa dan bila?
+- Hamparan keperluan diet tidak boleh dimasukkan ke dalam alat AI yang tidak diluluskan.

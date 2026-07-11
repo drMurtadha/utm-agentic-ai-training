@@ -1,6 +1,6 @@
 # Training Brief
 
-## Working title
+## Tajuk kerja
 
 Memanfaatkan Agentic AI untuk Meningkatkan Produktiviti Harian
 
@@ -11,54 +11,54 @@ Memanfaatkan Agentic AI untuk Meningkatkan Produktiviti Harian
 - Masa: 10.00 pagi–12.00 tengah hari
 - Tempoh: 2 jam (120 minit)
 
-## Purpose
+## Tujuan
 
-Enable participants to move from a well-scoped problem to a safe, testable AI agent prototype.
+Membolehkan peserta bergerak daripada masalah yang mempunyai skop jelas kepada prototaip pembantu AI yang selamat dan boleh diuji.
 
-## Audience
+## Peserta sasaran
 
-UTM staff, educators, researchers, and technical practitioners with mixed levels of AI experience.
+Kakitangan UTM, pendidik, penyelidik dan pengamal teknikal dengan tahap pengalaman AI yang berbeza.
 
-## Suggested format
+## Format yang dicadangkan
 
-- Duration: confirmed two-hour workshop
-- Delivery: facilitator-led, demonstration, paired design, and hands-on build
-- Grouping: pairs or teams of three
-- Prerequisites: basic prompt-writing familiarity; no advanced coding required
+- Tempoh: bengkel dua jam yang disahkan
+- Penyampaian: dipimpin fasilitator, demonstrasi, reka bentuk berpasangan dan pembinaan amali
+- Kumpulan: pasangan atau kumpulan bertiga
+- Prasyarat: kefahaman asas penulisan prompt; kemahiran pengaturcaraan lanjutan tidak diperlukan
 
-## Learning flow
+## Aliran pembelajaran
 
-1. Understand agents and appropriate daily-productivity use cases.
-2. Recognise the elements of a bounded, safe agent workflow.
-3. Apply a compact agent-design framework to one daily task.
-4. Observe how a small agent workflow is tested and controlled.
-5. Identify one responsible next step for personal or team use.
+1. Memahami ejen dan kes penggunaan produktiviti harian yang sesuai.
+2. Mengenal pasti unsur aliran kerja ejen yang terkawal dan selamat.
+3. Menggunakan rangka kerja reka bentuk ejen yang ringkas pada satu tugasan harian.
+4. Memerhatikan cara aliran kerja kecil diuji dan dikawal.
+5. Menetapkan satu langkah seterusnya yang bertanggungjawab untuk kegunaan individu atau pasukan.
 
 ## Pelan latihan 2 jam
 
 | Masa | Aktiviti |
 |---|---|
-| 0–10 min | Opening activity: “What repetitive task would you delegate?” |
-| 10–25 min | Explain AI assistants vs agentic AI, with workplace examples |
-| 25–40 min | Live demonstration: turn a vague request into an agentic workflow |
-| 40–65 min | Hands-on 1: design an AI assistant using a structured template |
-| 65–75 min | Break and participant sharing |
-| 75–100 min | Hands-on 2: build and test the assistant in Gemini Gems |
-| 100–112 min | Improve it using test cases, reflection, and human approval |
-| 112–120 min | Responsible-use checklist, sharing, and closing |
+| 0–10 min | Aktiviti pembukaan: “Apakah tugasan berulang yang ingin anda delegasikan?” |
+| 10–25 min | Terangkan pembantu AI berbanding Agentic AI menggunakan contoh tempat kerja |
+| 25–40 min | Demonstrasi langsung: tukar permintaan kabur kepada aliran kerja agentic |
+| 40–65 min | Latihan 1: reka bentuk pembantu AI menggunakan templat berstruktur |
+| 65–75 min | Rehat dan perkongsian peserta |
+| 75–100 min | Latihan 2: bina dan uji pembantu dalam Gemini Gems |
+| 100–112 min | Tambah baik melalui kes ujian, refleksi dan kelulusan manusia |
+| 112–120 min | Senarai semak penggunaan bertanggungjawab, perkongsian dan penutup |
 
-## Primary platform
+## Platform utama
 
-Use Gemini Gems for the main no-code activity. Participants should bring a personal Google account as the most reliable option; access through work or university-managed accounts depends on administrator settings and account eligibility. Gems from Google Labs, powered by Opal, is optional because it is experimental, English-only, computer-only, and currently requires a personal Google account. ChatGPT Free may be used to test prompts, but creating custom GPTs and using ChatGPT agent mode require a paid plan.
+Gunakan Gemini Gems untuk aktiviti tanpa kod. Akaun Google peribadi ialah pilihan paling stabil; akses akaun kerja atau universiti bergantung pada tetapan pentadbir dan kelayakan akaun. Gems daripada Google Labs yang dikuasakan oleh Opal hanya pilihan lanjutan kerana masih bersifat eksperimen, menggunakan antara muka English, memerlukan komputer dan akaun Google peribadi. ChatGPT Free boleh digunakan untuk menguji prompt, tetapi penciptaan GPT tersuai dan mod ejen ChatGPT memerlukan pelan berbayar.
 
-## Scope guardrails
+## Batas skop
 
-Training examples must use synthetic or approved data. Participants must not enter credentials, personal data, confidential research, assessment records, or unpublished institutional material into unapproved tools.
+Semua contoh latihan mesti menggunakan data sintetik atau yang diluluskan. Peserta tidak boleh memasukkan kata laluan, data peribadi, penyelidikan sulit, rekod penilaian atau bahan institusi yang belum diterbitkan ke dalam alat yang tidak diluluskan.
 
-## Decisions to confirm
+## Keputusan yang perlu disahkan
 
-- Venue and cohort size
-- Approved agent platform and account access
-- Language of delivery
-- UTM branding and accessibility requirements
-- Technical support and escalation contact
+- Lokasi dan bilangan peserta
+- Platform ejen dan akses akaun yang diluluskan
+- Bahasa penyampaian
+- Keperluan penjenamaan dan kebolehcapaian UTM
+- Pegawai sokongan teknikal dan hubungan eskalasi

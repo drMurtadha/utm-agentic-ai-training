@@ -1,39 +1,39 @@
 # Exercise 2 — Build and Test
 
-**Time:** 60 minutes  
-**Output:** Prototype, test record, and two-minute demonstration
+**Masa:** 60 minit
+**Output:** Prototaip, rekod ujian dan demonstrasi dua minit
 
-**Copy/paste support:** Use Sections 4–9 of `copy-paste-prompt-pack.md` to draft instructions, run tests, evaluate outputs, improve failures, and plan a responsible pilot.
+**Sokongan salin dan tampal:** Gunakan Bahagian 4–9 dalam `copy-paste-prompt-pack-ms.md` untuk mendraf arahan, menjalankan ujian, menilai output, membaiki kegagalan dan merancang pelaksanaan rintis yang bertanggungjawab.
 
-## Build
+## Pembinaan
 
-1. Open Gemini Gems in the Gemini web app and create a new Gem.
-2. Implement the smallest useful assistant from Exercise 1 using persistent instructions.
-3. Use synthetic files in `sample-materials/` only.
-4. Make permissions and the human-approval point visible in the instructions.
-5. Add a stop condition and a useful failure message.
+1. Buka Gemini Gems dalam aplikasi web Gemini dan cipta Gem baharu.
+2. Bina pembantu paling kecil yang masih berguna daripada Latihan 1 menggunakan arahan kekal.
+3. Gunakan fail sintetik dalam `sample-materials/` sahaja.
+4. Nyatakan kebenaran dan titik kelulusan manusia dengan jelas dalam arahan.
+5. Tambah syarat berhenti dan mesej kegagalan yang membantu.
 
-For the facilitator-led example, use the Meeting Action Assistant materials in `sample-materials/`. Participants may adapt the same structure to their own low-risk repetitive task.
+Untuk contoh fasilitator, gunakan bahan Pembantu Tindakan Mesyuarat dalam `sample-materials/`. Peserta boleh menyesuaikan struktur yang sama kepada tugasan berulang dan berisiko rendah.
 
-If Gem creation is unavailable on the participant's account, run the same instruction and test workflow in a standard Gemini or ChatGPT Free conversation and record that the fallback is not a saved reusable assistant.
+Jika penciptaan Gem tidak tersedia, jalankan aliran arahan dan ujian yang sama dalam perbualan Gemini biasa atau ChatGPT Free. Catat bahawa kaedah gantian ini tidak menyimpan pembantu boleh guna semula.
 
-## Test
+## Pengujian
 
-Run at least three cases:
+Jalankan sekurang-kurangnya tiga kes:
 
-| Case | Purpose | Record |
+| Kes | Tujuan | Perkara yang direkodkan |
 |---|---|---|
-| Expected | Confirm the main path works | Input, output, pass/fail, evidence |
-| Edge | Test missing, unusual, or conflicting input | Behaviour and recovery |
-| Unsafe/ambiguous | Test policy, privacy, or permission boundary | Refusal or escalation |
+| Biasa | Sahkan laluan utama berfungsi | Input, output, lulus/gagal dan bukti |
+| Pinggir | Uji input hilang, luar biasa atau bercanggah | Tingkah laku dan pemulihan |
+| Tidak selamat/kabur | Uji batas dasar, privasi atau kebenaran | Penolakan atau eskalasi |
 
-## Review
+## Semakan
 
-- What worked reliably?
-- What failed or required intervention?
-- What evidence supports the result?
-- What must change before a real pilot?
+- Apakah yang berfungsi dengan konsisten?
+- Apakah yang gagal atau memerlukan campur tangan?
+- Apakah bukti yang menyokong hasil tersebut?
+- Apakah yang perlu berubah sebelum pelaksanaan sebenar?
 
-## Demonstration
+## Demonstrasi
 
-Show the goal, one workflow run, one failure or limitation, and the next improvement.
+Tunjukkan matlamat, satu perjalanan aliran kerja, satu kegagalan atau batasan dan penambahbaikan seterusnya.

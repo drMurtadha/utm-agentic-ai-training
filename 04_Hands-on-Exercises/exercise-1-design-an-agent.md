@@ -1,24 +1,24 @@
 # Exercise 1 — Design an Agent
 
-**Time:** 35 minutes  
-**Output:** Completed one-page agent design
+**Masa:** 35 minit
+**Output:** Reka bentuk ejen satu halaman yang lengkap
 
-**Copy/paste support:** Use Sections 1–3 of `copy-paste-prompt-pack.md` for task selection, scope review, workflow design, and success criteria.
+**Sokongan salin dan tampal:** Gunakan Bahagian 1–3 dalam `copy-paste-prompt-pack-ms.md` untuk pemilihan tugasan, semakan skop, reka bentuk aliran kerja dan kriteria kejayaan.
 
-## Scenario
+## Senario
 
-Choose a repetitive, low-risk task from teaching, research support, administration, or student services. Use only synthetic or approved information.
+Pilih tugasan berulang dan berisiko rendah daripada bidang pengajaran, sokongan penyelidikan, pentadbiran atau perkhidmatan pelajar. Gunakan maklumat sintetik atau yang diluluskan sahaja.
 
-## Instructions
+## Arahan
 
-1. Write the user and the job to be done in one sentence.
-2. Define a narrow goal and at least two non-goals.
-3. List required inputs and the tools or information sources the agent may use.
-4. Describe the output and measurable success criteria.
-5. Add one human approval point and clear stop or escalation conditions.
-6. Identify privacy, accuracy, bias, security, and operational risks.
-7. Sketch the workflow from request to final output.
+1. Tulis pengguna dan kerja yang perlu diselesaikan dalam satu ayat.
+2. Tetapkan satu matlamat yang fokus serta sekurang-kurangnya dua perkara yang bukan matlamat.
+3. Senaraikan input, alat atau sumber maklumat yang boleh digunakan oleh ejen.
+4. Huraikan output dan kriteria kejayaan yang boleh diukur.
+5. Tambah satu titik kelulusan manusia serta syarat berhenti atau eskalasi yang jelas.
+6. Kenal pasti risiko privasi, ketepatan, bias, keselamatan dan operasi.
+7. Lakarkan aliran kerja daripada permintaan sehingga output akhir.
 
-## Peer review
+## Semakan rakan
 
-Exchange designs. The reviewer should ask: Is the goal observable? Are permissions bounded? Can the agent stop safely? How will the team know it worked?
+Tukar reka bentuk dengan rakan. Penyemak perlu bertanya: Adakah matlamat boleh diperhatikan? Adakah kebenaran mempunyai batas jelas? Bolehkah ejen berhenti dengan selamat? Bagaimanakah pasukan mengetahui bahawa ejen berjaya?

@@ -1,4 +1,3 @@
 # References
 
-Maintain an approved reading list here. For each source, record title, author or organisation, publication date, URL or file location, access date, licence where relevant, and the training claim it supports.
-
+Kekalkan senarai bacaan yang diluluskan dalam folder ini. Bagi setiap sumber, rekodkan tajuk, penulis atau organisasi, tarikh penerbitan, URL atau lokasi fail, tarikh akses, lesen jika berkaitan dan dakwaan latihan yang disokong oleh sumber tersebut.

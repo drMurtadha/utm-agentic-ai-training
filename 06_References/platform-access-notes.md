@@ -1,29 +1,29 @@
 # Platform Access Notes
 
-Verified 10 July 2026 against official product documentation.
+Disahkan pada 10 Julai 2026 berdasarkan dokumentasi rasmi produk.
 
-## Gemini Gems — primary hands-on tool
+## Gemini Gems — alat amali utama
 
-Google describes Gems as customized versions of Gemini for repetitive tasks and persistent guidance. Custom Gems are created and edited in the Gemini web app. A signed-in personal Google account is supported; work and school account access is governed by different terms, qualifying editions, age requirements, and administrator enablement.
+Google menerangkan Gems sebagai versi Gemini yang disesuaikan untuk tugasan berulang dan panduan kekal. Gem tersuai dicipta dan disunting dalam aplikasi web Gemini. Akaun Google peribadi yang telah dilog masuk disokong; akses melalui akaun kerja dan sekolah tertakluk pada syarat berbeza, edisi yang layak, keperluan umur dan pengaktifan pentadbir.
 
-- [Use Gems in Gemini Apps](https://support.google.com/gemini/answer/15146780?hl=en)
-- [Get started with Gems](https://support.google.com/gemini/answer/15236321?hl=en)
-- [Gemini account requirements](https://support.google.com/gemini/answer/13275745?hl=en)
+- [Gunakan Gems dalam Aplikasi Gemini](https://support.google.com/gemini/answer/15146780?hl=en)
+- [Bermula dengan Gems](https://support.google.com/gemini/answer/15236321?hl=en)
+- [Keperluan akaun Gemini](https://support.google.com/gemini/answer/13275745?hl=en)
 
-## Gems from Google Labs / Opal — optional advanced demonstration
+## Gems daripada Google Labs / Opal — demonstrasi lanjutan pilihan
 
-Google identifies this as an experimental workflow and AI mini-app feature powered by Opal. It currently requires users to be 18 or over, use a personal Google account, work on a computer in the Gemini web app, and use the English-only interface. Work and school accounts are not currently supported.
+Google mengenal pasti fungsi ini sebagai aliran kerja eksperimen dan aplikasi mini AI yang dikuasakan oleh Opal. Pada masa ini, pengguna perlu berumur 18 tahun ke atas, menggunakan akaun Google peribadi, bekerja melalui komputer dalam aplikasi web Gemini dan menggunakan antara muka English. Akaun kerja dan sekolah belum disokong.
 
-- [Create AI mini-apps or custom workflows as Gems from Google Labs](https://support.google.com/gemini/answer/16802014?hl=en)
+- [Cipta aplikasi mini AI atau aliran kerja tersuai sebagai Gems daripada Google Labs](https://support.google.com/gemini/answer/16802014?hl=en)
 
-## ChatGPT Free — fallback only
+## ChatGPT Free — pelan gantian sahaja
 
-Free users can use GPTs and several general ChatGPT tools, subject to limits, but creating or editing a custom GPT requires a paid subscription. ChatGPT agent mode is also currently available only on paid plans.
+Pengguna percuma boleh menggunakan GPT dan beberapa alat umum ChatGPT tertakluk pada had penggunaan, tetapi penciptaan atau penyuntingan GPT tersuai memerlukan langganan berbayar. Mod ejen ChatGPT juga tersedia untuk pelan berbayar sahaja.
 
-- [ChatGPT Free Tier FAQ](https://help.openai.com/en/articles/9275245-using-chatgpt-s-free-tier-faq)
-- [GPTs in ChatGPT](https://help.openai.com/en/articles/8554407-gpts-in-chatgpt)
-- [ChatGPT agent availability](https://help.openai.com/en/articles/11752874-chatgpt-agent)
+- [Soalan Lazim ChatGPT Free](https://help.openai.com/en/articles/9275245-using-chatgpt-s-free-tier-faq)
+- [GPT dalam ChatGPT](https://help.openai.com/en/articles/8554407-gpts-in-chatgpt)
+- [Ketersediaan ejen ChatGPT](https://help.openai.com/en/articles/11752874-chatgpt-agent)
 
-## Delivery implication
+## Implikasi penyampaian
 
-Ask participants to bring a personal Google account, but retain a prompt-testing fallback. Never use confidential, personal, assessment, credential, or unpublished research data during the activity.
+Minta peserta membawa akaun Google peribadi, tetapi kekalkan pelan gantian pengujian prompt. Jangan gunakan data sulit, peribadi, penilaian, kata laluan atau penyelidikan yang belum diterbitkan semasa aktiviti.
