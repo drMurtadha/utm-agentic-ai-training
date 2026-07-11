@@ -1,41 +1,58 @@
-# UTM Agentic AI Training
+# Latihan Agentic AI UTM
 
-Working repository for designing, facilitating, and distributing the UTM Agentic AI Training programme.
+Repositori kerja untuk mereka bentuk, menyampaikan dan mengedarkan bahan Latihan Agentic AI UTM.
 
-## Participant web portal
+## Portal web peserta
 
-The participant-facing GitHub Pages portal is stored in `docs/`. It provides a mobile-friendly agenda, web access to the copy/paste prompt pack, and direct links to the training files.
+Portal GitHub Pages untuk peserta disimpan dalam folder [`docs/`](docs/). Portal menyediakan agenda mesra telefon, prompt salin dan tampal serta pautan terus kepada semua bahan latihan.
 
-- Portal: `https://drmurtadha.github.io/utm-agentic-ai-training/`
-- GitHub Pages source: branch `agent/initial-training-materials`, folder `/docs`
+- [Buka portal peserta](https://drmurtadha.github.io/utm-agentic-ai-training/)
+- Sumber GitHub Pages: branch `agent/initial-training-materials`, folder `/docs`
 
-## Confirmed session
+## Sesi yang disahkan
 
-- Topic: Memanfaatkan Agentic AI untuk Meningkatkan Produktiviti Harian
-- Speaker: PM Dr. Mohd Murtadha Mohamad
-- Date: 21 Julai 2026 (Selasa)
-- Time: 10.00 pagi – 11.00 pagi
+- Topik: Memanfaatkan Agentic AI untuk Meningkatkan Produktiviti Harian
+- Penceramah: PM Dr. Mohd Murtadha Mohamad
+- Tarikh: 21 Julai 2026 (Selasa)
+- Masa: 10.00 pagi–11.00 pagi
 
-## Project map
+## Peta projek
 
-- `00_Project-Plan/` — scope, outcomes, and production controls
-- `01_Slides/` — presentation deck and speaker notes
-- `02_Facilitator-Guide/` — delivery guide
-- `03_Participant-Workbook/` — participant activities and reflections
-- `04_Hands-on-Exercises/` — practical exercise instructions and sample inputs
-- `05_Templates/` — reusable agent-design template
-- `06_References/` — approved sources and further reading
-- `07_Final-Distribution/` — release-ready exports only
-- `scripts/` — reproducible artifact-generation utilities
+- [`00_Project-Plan/`](00_Project-Plan/) — skop, hasil pembelajaran dan kawalan produksi
+  - [Ringkasan latihan](00_Project-Plan/training-brief.md)
+  - [Hasil pembelajaran](00_Project-Plan/learning-outcomes.md)
+  - [Senarai semak produksi](00_Project-Plan/production-checklist.md)
+- [`01_Slides/`](01_Slides/) — slaid dan nota penyampaian
+  - [Muat turun slaid PowerPoint](01_Slides/presentation.pptx)
+  - [Baca nota penyampaian](01_Slides/speaker-notes.md)
+- [`02_Facilitator-Guide/`](02_Facilitator-Guide/) — panduan penyampaian
+  - [Muat turun panduan fasilitator](02_Facilitator-Guide/facilitator-guide.docx)
+  - [Baca runbook demonstrasi](02_Facilitator-Guide/live-demo-runbook.md)
+- [`03_Participant-Workbook/`](03_Participant-Workbook/) — aktiviti dan refleksi peserta
+  - [Muat turun buku kerja peserta](03_Participant-Workbook/participant-workbook.docx)
+- [`04_Hands-on-Exercises/`](04_Hands-on-Exercises/) — latihan praktikal dan bahan contoh
+  - [Latihan 1: Reka Bentuk Ejen](04_Hands-on-Exercises/exercise-1-design-an-agent.md)
+  - [Latihan 2: Bina dan Uji](04_Hands-on-Exercises/exercise-2-build-and-test.md)
+  - [Prompt salin dan tampal](04_Hands-on-Exercises/copy-paste-prompt-pack.md)
+  - [Arahan Pembantu Tindakan Mesyuarat](04_Hands-on-Exercises/sample-materials/meeting-assistant-gem-instructions.md)
+  - [Kes ujian Pembantu Tindakan Mesyuarat](04_Hands-on-Exercises/sample-materials/meeting-assistant-test-cases.md)
+  - [Nota mesyuarat sintetik](04_Hands-on-Exercises/sample-materials/synthetic-meeting-notes.md)
+- [`05_Templates/`](05_Templates/) — templat boleh guna semula
+  - [Muat turun templat reka bentuk ejen](05_Templates/one-page-agent-design-template.docx)
+- [`06_References/`](06_References/) — sumber dan bacaan lanjut
+  - [Nota akses platform](06_References/platform-access-notes.md)
+- [`07_Final-Distribution/`](07_Final-Distribution/) — eksport akhir yang sedia diedarkan
+- [`docs/`](docs/) — portal web peserta
+- [`scripts/`](scripts/) — utiliti penjanaan artifak
 
-## Working convention
+## Konvensyen kerja
 
-Edit source files in folders `00`–`06`. Place only reviewed, final deliverables in `07_Final-Distribution`. Never commit API keys or participant data.
+Sunting fail sumber dalam folder `00`–`06`. Letakkan hanya bahan akhir yang telah disemak dalam `07_Final-Distribution`. Jangan commit kunci API atau data peserta.
 
-## Facilitator rehearsal
+## Raptai fasilitator
 
-Start with `02_Facilitator-Guide/live-demo-runbook.md`. It contains the timed Gemini Gems demonstration, exact talking points, recovery language, and fallback route. The copy-paste Gem instructions, synthetic meeting notes, and test cases are in `04_Hands-on-Exercises/sample-materials/`.
+Mulakan dengan [runbook demonstrasi](02_Facilitator-Guide/live-demo-runbook.md). Fail ini mengandungi demonstrasi Gemini Gems mengikut masa, isi penting, bahasa pemulihan dan laluan gantian. Arahan Gem, nota mesyuarat sintetik dan kes ujian tersedia dalam [`04_Hands-on-Exercises/sample-materials/`](04_Hands-on-Exercises/sample-materials/).
 
-## Participant prompt pack
+## Prompt peserta
 
-Use `04_Hands-on-Exercises/copy-paste-prompt-pack.md` for participant-ready prompts covering task selection, agent design, Gemini Gem instructions, testing, evaluation, improvement, and responsible piloting. It also includes reusable search strings for official platform guidance, institutional policy, and approved evidence.
+Gunakan [prompt salin dan tampal](04_Hands-on-Exercises/copy-paste-prompt-pack.md) untuk pemilihan tugasan, reka bentuk ejen, arahan Gemini Gem, pengujian, penilaian, penambahbaikan dan pelaksanaan rintis yang bertanggungjawab.
