@@ -3,7 +3,7 @@
 ## Content
 
 - [ ] Audience, duration, platform, and delivery language confirmed
-- [ ] Advertised 60-minute slot reconciled with the proposed 120-minute agenda
+- [x] Tempoh latihan dua jam diselaraskan dengan agenda 120 minit
 - [ ] Learning outcomes aligned across deck, guide, workbook, and exercises
 - [ ] Examples use synthetic or approved data
 - [ ] Safety, privacy, limitations, and human oversight are explicit

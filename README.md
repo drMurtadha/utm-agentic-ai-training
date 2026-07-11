@@ -14,7 +14,7 @@ Portal GitHub Pages untuk peserta disimpan dalam folder [`docs/`](docs/). Portal
 - Topik: Memanfaatkan Agentic AI untuk Meningkatkan Produktiviti Harian
 - Penceramah: PM Dr. Mohd Murtadha Mohamad
 - Tarikh: 21 Julai 2026 (Selasa)
-- Masa: 10.00 pagi–11.00 pagi
+- Masa: 10.00 pagi–12.00 tengah hari
 
 ## Peta projek
 

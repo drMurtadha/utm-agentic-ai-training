@@ -8,9 +8,8 @@ Memanfaatkan Agentic AI untuk Meningkatkan Produktiviti Harian
 
 - Penceramah: PM Dr. Mohd Murtadha Mohamad
 - Tarikh: 21 Julai 2026 (Selasa)
-- Masa: 10.00 pagi – 11.00 pagi
-- Slot semasa: 60 minit
-- Pelan agenda penuh: 120 minit (memerlukan slot sehingga 12.00 tengah hari)
+- Masa: 10.00 pagi–12.00 tengah hari
+- Tempoh: 2 jam (120 minit)
 
 ## Purpose
 
@@ -22,7 +21,7 @@ UTM staff, educators, researchers, and technical practitioners with mixed levels
 
 ## Suggested format
 
-- Duration: proposed 120-minute workshop; current advertised slot is only 60 minutes
+- Duration: confirmed two-hour workshop
 - Delivery: facilitator-led, demonstration, paired design, and hands-on build
 - Grouping: pairs or teams of three
 - Prerequisites: basic prompt-writing familiarity; no advanced coding required
@@ -35,7 +34,7 @@ UTM staff, educators, researchers, and technical practitioners with mixed levels
 4. Observe how a small agent workflow is tested and controlled.
 5. Identify one responsible next step for personal or team use.
 
-## Pelan 120 minit
+## Pelan latihan 2 jam
 
 | Masa | Aktiviti |
 |---|---|
@@ -59,7 +58,6 @@ Training examples must use synthetic or approved data. Participants must not ent
 ## Decisions to confirm
 
 - Venue and cohort size
-- Resolve the 120-minute agenda against the advertised 60-minute slot
 - Approved agent platform and account access
 - Language of delivery
 - UTM branding and accessibility requirements

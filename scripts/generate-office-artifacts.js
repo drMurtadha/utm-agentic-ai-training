@@ -64,9 +64,9 @@ async function writeDoc(file, doc) {
 
 async function generateDocs() {
   await writeDoc("02_Facilitator-Guide/facilitator-guide.docx", makeDoc(
-    "Facilitator Guide", "21 Julai 2026 (Selasa) · 10.00 pagi – 11.00 pagi · PM Dr. Mohd Murtadha Mohamad", [
+    "Facilitator Guide", "21 Julai 2026 (Selasa) · 10.00 pagi–12.00 tengah hari · PM Dr. Mohd Murtadha Mohamad", [
       { title: "Session", items: ["Memanfaatkan Agentic AI untuk Meningkatkan Produktiviti Harian"] },
-      { title: "Purpose and approach", items: ["Help participants recognise practical daily-productivity opportunities for Agentic AI, design a reusable assistant, and build and test it in Gemini Gems. The full agenda requires 120 minutes; the advertised 10.00–11.00 pagi slot must be extended or compressed before distribution."] },
+      { title: "Purpose and approach", items: ["Help participants recognise practical daily-productivity opportunities for Agentic AI, design a reusable assistant, and build and test it in Gemini Gems within the confirmed two-hour session."] },
       { title: "Before the session", items: [bullet("Rehearse the Meeting Action Assistant using live-demo-runbook.md."), bullet("Confirm Gemini Gems using a participant-level personal Google account."), bullet("Prepare the synthetic meeting notes, test cases, and standard-chat fallback."), bullet("Print or distribute the participant workbook and agent-design template.")] },
       { title: "Suggested agenda", items: [new Table({ width: { size: 9706, type: WidthType.DXA }, columnWidths: [1800, 4906, 3000], rows: [
         new TableRow({ children: [cell("Time", 1800, navy, true), cell("Segment", 4906, navy, true), cell("Method", 3000, navy, true)] }),
@@ -83,7 +83,7 @@ async function generateDocs() {
     ]));
 
   await writeDoc("03_Participant-Workbook/participant-workbook.docx", makeDoc(
-    "Participant Workbook", "21 Julai 2026 (Selasa) · 10.00 pagi – 11.00 pagi", [
+    "Participant Workbook", "21 Julai 2026 (Selasa) · 10.00 pagi–12.00 tengah hari", [
       { title: "My learning goals", items: [para("What task or challenge do I hope to improve?"), para("________________________________________________________________________________"), para("What would make this training useful to me?"), para("________________________________________________________________________________")] },
       { title: "Agent or simple automation?", items: [para("Record one task suited to a fixed workflow and one that may benefit from an agent. Explain the difference."), para("________________________________________________________________________________"), para("________________________________________________________________________________")] },
       { title: "Gem design notes", items: [bullet("User and repetitive task"), bullet("Goal and non-goals"), bullet("Persistent instructions and approved inputs"), bullet("Output and success measures"), bullet("Human approval and escalation"), bullet("Risks, stopping, and failure message")] },
@@ -127,7 +127,7 @@ async function generateSlides() {
   s.addText("UTM", { x: 0.7, y: 0.5, w: 1.2, h: 0.35, fontSize: 14, bold: true, color: gold, margin: 0 });
   s.addText("Memanfaatkan\nAgentic AI untuk\nMeningkatkan Produktiviti Harian", { x: 0.7, y: 1.25, w: 6.5, h: 2.15, fontSize: 27, bold: true, color: "FFFFFF", margin: 0, breakLine: false, fit: "shrink" });
   s.addText("PM Dr. Mohd Murtadha Mohamad", { x: 0.72, y: 3.7, w: 5.9, h: 0.32, fontSize: 15, bold: true, color: gold, margin: 0 });
-  s.addText("21 Julai 2026 (Selasa)  ·  10.00 pagi – 11.00 pagi", { x: 0.72, y: 4.18, w: 6.2, h: 0.3, fontSize: 12, color: "DDE8E8", margin: 0 });
+  s.addText("21 Julai 2026 (Selasa)  ·  10.00 pagi–12.00 tengah hari", { x: 0.72, y: 4.18, w: 6.2, h: 0.3, fontSize: 12, color: "DDE8E8", margin: 0 });
 
   s = pptx.addSlide(); s.background = { color: cream }; addTitle(s, "AI assistant vs agentic AI", "Core distinction");
   [["AI ASSISTANT", "Responds using reusable instructions", "You direct each interaction", teal], ["AGENTIC WORKFLOW", "Observes, decides, acts, and checks", "Controls define when to stop or escalate", navy]].forEach((c, i) => { const x = 0.7 + i * 4.65; s.addShape(pptx.ShapeType.rect, { x, y: 1.8, w: 4.0, h: 2.8, fill: { color: i === 0 ? "E8F1F0" : navy }, line: { color: c[3] } }); s.addText(c[0], { x: x + 0.3, y: 2.15, w: 3.4, h: 0.3, fontSize: 14, bold: true, color: i === 0 ? teal : gold, margin: 0 }); s.addText(c[1], { x: x + 0.3, y: 2.85, w: 3.3, h: 0.75, fontSize: 21, bold: true, color: i === 0 ? navy : "FFFFFF", margin: 0 }); s.addText(c[2], { x: x + 0.3, y: 3.85, w: 3.3, h: 0.45, fontSize: 13, color: i === 0 ? ink : "DDE8E8", margin: 0 }); });
@@ -153,4 +153,7 @@ async function generateSlides() {
   await pptx.writeFile({ fileName: path.join(root, "01_Slides/presentation.pptx") });
 }
 
-(async () => { await generateDocs(); await generateSlides(); })().catch(err => { console.error(err); process.exit(1); });
+(async () => {
+  await generateDocs();
+  if (process.env.DOCS_ONLY !== "1") await generateSlides();
+})().catch(err => { console.error(err); process.exit(1); });

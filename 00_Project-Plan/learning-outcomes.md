@@ -1,6 +1,6 @@
 # Learning Outcomes
 
-By the end of the full 120-minute workshop, participants should be able to:
+By the end of the two-hour workshop, participants should be able to:
 
 1. Explain how an AI agent differs from a single prompt or conventional automation.
 2. Judge whether a task is suitable for an agentic workflow.

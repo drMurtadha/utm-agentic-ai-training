@@ -3,9 +3,9 @@
 **Sesi:** Memanfaatkan Agentic AI untuk Meningkatkan Produktiviti Harian  
 **Penceramah:** PM Dr. Mohd Murtadha Mohamad  
 **Tarikh:** 21 Julai 2026 (Selasa)  
-**Masa:** 10.00 pagi – 11.00 pagi
+**Masa:** 10.00 pagi–12.00 tengah hari
 
-## Cadangan masa — versi penuh 120 minit
+## Agenda latihan 2 jam
 
 - Slide 1 and opening activity: 10 minutes
 - Slides 2–3, concepts and examples: 15 minutes
@@ -15,8 +15,6 @@
 - Slide 5 and Hands-on 2 in Gemini Gems: 25 minutes
 - Testing, reflection, and human approval: 12 minutes
 - Slide 6, responsible-use checklist and closing: 8 minutes
-
-> Scheduling note: this plan totals 120 minutes, but the confirmed event listing currently shows 10.00 pagi–11.00 pagi. Confirm an extension or prepare a separate compressed version.
 
 ## Slide 1 — UTM Agentic AI Training
 
