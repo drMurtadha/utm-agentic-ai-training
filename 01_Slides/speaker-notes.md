@@ -19,7 +19,7 @@
 
 ## Slaid 1 — Kerja berulang tidak semestinya memakan masa anda
 
-Mulakan dengan satu soalan: “Apakah tugasan berulang yang paling banyak mengambil masa anda setiap minggu?” Minta dua atau tiga respons. Jelaskan bahawa latihan ini bukan tentang menyerahkan semua kerja kepada AI; matlamatnya ialah mereka bentuk pembantu yang sempit, boleh diuji dan kekal di bawah kawalan manusia.
+Mulakan dengan satu soalan: “Apakah tugasan berulang yang paling banyak mengambil masa anda setiap minggu?” Minta dua atau tiga respons. Jelaskan bahawa latihan ini bukan tentang menyerahkan semua kerja kepada AI; matlamatnya ialah mereka bentuk pembantu yang berfokus, boleh diuji dan sentiasa di bawah kawalan manusia.
 
 ## Slaid 2 — Apa itu Agentic AI?
 

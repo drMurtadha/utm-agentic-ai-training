@@ -27,7 +27,7 @@ Nilai cadangan tugasan pembantu AI berikut:
 
 [HURAIKAN TUGASAN]
 
-Tentukan sama ada tugasan ini berulang, sempit, boleh diperhatikan, berisiko rendah dan boleh diuji. Kenal pasti batas yang tidak jelas, maklumat yang diperlukan, kemungkinan kegagalan dan satu titik kelulusan manusia. Akhiri dengan salah satu cadangan ini: sesuai sekarang, sesuai selepas dikecilkan skop, atau tidak sesuai untuk latihan ini. Jelaskan keputusan secara ringkas.
+Tentukan sama ada tugasan ini berulang, berskop jelas, boleh diperhatikan, berisiko rendah dan boleh diuji. Kenal pasti batas yang tidak jelas, maklumat yang diperlukan, kemungkinan kegagalan dan satu titik kelulusan manusia. Akhiri dengan salah satu cadangan ini: sesuai sekarang, sesuai selepas dikecilkan skop, atau tidak sesuai untuk latihan ini. Jelaskan keputusan secara ringkas.
 ```
 
 ### Prompt C — Bandingkan automasi tetap dengan pembantu AI
@@ -54,7 +54,7 @@ Bantu saya menetapkan skop pembantu AI boleh guna semula untuk tugasan berikut:
 
 Drafkan:
 - pengguna dan kerja yang perlu diselesaikan;
-- satu matlamat yang sempit dan boleh diperhatikan;
+- satu matlamat yang khusus dan boleh diperhatikan;
 - sekurang-kurangnya tiga perkara yang bukan matlamat;
 - input yang dibenarkan;
 - maklumat yang dilarang;
