@@ -21,10 +21,10 @@ Senario ini mudah difahami, berkaitan dengan tugas pensyarah dan pentadbir serta
 - Pastikan **Gems** dan **New Gem** dipaparkan.
 - Buka fail berikut dalam tab berasingan:
   - runbook ini;
-  - `sample-materials/synthetic-meeting-notes.md`;
-  - `sample-materials/meeting-assistant-gem-instructions.md`;
-  - `sample-materials/meeting-assistant-test-cases.md`;
-  - `sample-materials/real-meeting-training-case-ms.md` untuk aktiviti audit lanjutan.
+  - [Nota mesyuarat sintetik](../04_Hands-on-Exercises/sample-materials/synthetic-meeting-notes.md);
+  - [Arahan Gem Pembantu Minit Mesyuarat](../04_Hands-on-Exercises/sample-materials/meeting-assistant-gem-instructions.md);
+  - [Kes ujian Pembantu Minit Mesyuarat](../04_Hands-on-Exercises/sample-materials/meeting-assistant-test-cases.md);
+  - [Kes mesyuarat sebenar yang dinyahidentiti](../04_Hands-on-Exercises/sample-materials/real-meeting-training-case-ms.md) untuk aktiviti audit lanjutan.
 - Besarkan paparan pelayar dan teks editor supaya boleh dibaca oleh peserta.
 - Matikan pemberitahuan komputer.
 - Gunakan tetingkap pelayar bersih tanpa e-mel, fail Drive atau sejarah akaun peribadi.
