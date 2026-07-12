@@ -23,6 +23,95 @@ Pada penghujung flow, peserta sepatutnya mempunyai:
 
 ---
 
+## Mula di sini — laluan paling mudah
+
+Gunakan bahagian ini dahulu. Jangan mulakan dengan mencipta Gem, mengisi templat atau menerangkan semua istilah. Matlamat pertama ialah memastikan semua peserta berjaya menghasilkan satu draf yang boleh disemak.
+
+### Apa yang perlu dibuka
+
+1. Buka Gemini biasa atau ChatGPT dalam satu tab.
+2. Buka [nota mesyuarat sintetik](sample-materials/synthetic-meeting-notes.md) dalam tab kedua.
+3. Buka halaman flow ini dalam tab ketiga.
+
+### Cara memberi arahan kepada peserta
+
+Sebut ayat berikut:
+
+> Kita akan ikut langkah yang sama bersama-sama. Jangan ubah prompt dahulu. Salin, tampal dan lihat hasil pertama. Selepas berjaya, barulah kita bincangkan mengapa ia berfungsi.
+
+### Langkah Mudah 1 — Salin arahan ringkas
+
+```text
+Anda ialah Pembantu Minit Mesyuarat.
+
+Daripada nota atau transkrip yang saya berikan, hasilkan:
+1. ringkasan pendek;
+2. keputusan yang benar-benar dipersetujui;
+3. jadual tindakan dengan pemilik dan tarikh akhir;
+4. perkara yang masih belum jelas; dan
+5. senarai semak untuk semakan manusia.
+
+Peraturan penting:
+- Jangan mereka nama, keputusan, pemilik atau tarikh.
+- Jika maklumat tiada, tulis "Tidak dinyatakan".
+- Bezakan cadangan daripada keputusan.
+- Sediakan draf sahaja; jangan mendakwa telah menghantar atau melaksanakan apa-apa.
+
+Balas "Sedia menerima nota" jika anda faham.
+```
+
+Tunggu sehingga AI menjawab bahawa ia sedia. Jika jawapan lain diberikan, tidak mengapa; teruskan ke Langkah Mudah 2.
+
+### Langkah Mudah 2 — Tampal nota
+
+```text
+Gunakan nota mesyuarat di bawah sahaja. Jangan gunakan pengetahuan luar.
+
+[TAMPAL KESELURUHAN NOTA MESYUARAT SINTETIK DI SINI]
+```
+
+### Langkah Mudah 3 — Semak empat perkara sahaja
+
+Minta peserta mencari empat perkara ini pada output:
+
+- Adakah ringkasan sepadan dengan nota?
+- Adakah pemilik atau tarikh yang tiada ditulis “Tidak dinyatakan”?
+- Adakah cadangan dipisahkan daripada keputusan?
+- Adakah output dinyatakan sebagai draf untuk semakan manusia?
+
+Kemudian tampal prompt berikut:
+
+```text
+Semak semula jawapan anda terhadap nota asal.
+
+Berikan jadual dengan empat baris sahaja:
+1. Fakta yang mungkin direka
+2. Maklumat penting yang tertinggal
+3. Cadangan yang mungkin tersalah label sebagai keputusan
+4. Pemilik atau tarikh yang tidak disokong nota
+
+Jika tiada masalah, tulis "Tiada masalah ditemui". Jangan menambah fakta baharu.
+```
+
+### Tanda peserta telah berjaya
+
+Peserta dianggap berjaya apabila mereka boleh menunjukkan:
+
+1. satu tindakan yang mempunyai pemilik atau “Tidak dinyatakan”;
+2. satu keputusan atau kenyataan bahawa tiada keputusan jelas;
+3. satu maklumat yang memerlukan penjelasan; dan
+4. satu perkara yang perlu disemak manusia.
+
+### Selepas semua peserta berjaya
+
+Barulah terangkan:
+
+> Tadi kita menggunakan arahan sementara dalam perbualan biasa. Gem menyimpan arahan yang sama supaya kita tidak perlu menampalnya semula setiap kali.
+
+Peserta yang sudah selesa boleh meneruskan ke Langkah 0–6. Peserta yang masih perlukan bantuan boleh kekal menggunakan tiga Langkah Mudah di atas.
+
+---
+
 ## Langkah 0 — Semak keselamatan bahan
 
 Tampal prompt ini sebelum menggunakan sebarang audio atau transkrip sebenar.

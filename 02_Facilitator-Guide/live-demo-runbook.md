@@ -1,8 +1,22 @@
-# Live Demonstration Runbook
+# Panduan Demonstrasi Langsung
 
 ## Matlamat demonstrasi
 
-Tunjukkan cara menukarkan permintaan tempat kerja yang kabur kepada pembantu AI boleh guna semula yang mempunyai skop jelas dalam Gemini Gems, kemudian menguji dan menambah baiknya. Demonstrasi utama menggunakan maklumat sintetik; aktiviti lanjutan boleh menggunakan petikan mesyuarat sebenar yang telah dipendekkan dan dinyahidentiti.
+Pastikan peserta memperoleh satu kejayaan awal: mereka menampal arahan ringkas dan nota mesyuarat, kemudian mengenal pasti sama ada output itu tepat. Penciptaan Gemini Gem hanya diperkenalkan selepas aliran asas berjaya.
+
+## Prinsip penyampaian untuk peserta bukan teknikal
+
+- Tunjukkan satu langkah pada satu masa.
+- Gunakan pola **lihat → ikut → semak → faham**.
+- Jangan terangkan semua istilah sebelum demonstrasi.
+- Jangan minta peserta memilih tugasan sendiri pada percubaan pertama.
+- Gunakan nota dan prompt yang sama untuk semua peserta.
+- Selepas setiap langkah, berhenti dan tanya: “Siapa belum sampai ke skrin yang sama?”
+- Anggap kelewatan akses, salah klik dan output berbeza sebagai perkara biasa, bukan kegagalan peserta.
+
+Ayat pembukaan yang disyorkan:
+
+> Hari ini kita tidak belajar menjadi pengatur cara. Kita belajar memberikan arahan kerja yang jelas kepada pembantu AI dan menyemak hasilnya. Untuk percubaan pertama, ikut langkah saya tanpa mengubah apa-apa.
 
 ## Senario demonstrasi
 
@@ -30,104 +44,99 @@ Senario ini mudah difahami, berkaitan dengan tugas pensyarah dan pentadbir serta
 - Gunakan tetingkap pelayar bersih tanpa e-mel, fail Drive atau sejarah akaun peribadi.
 - Sediakan pelan gantian perbualan Gemini biasa atau ChatGPT Free.
 
-## Demonstrasi langsung 15 minit
+## Demonstrasi langsung 15 minit — ikut saya
 
-### Minit 0–2 — Mulakan dengan permintaan kabur
-
-Paparkan permintaan berikut:
-
-> Baca nota mesyuarat saya dan beritahu apa yang perlu saya lakukan.
+### Minit 0–2 — Tetapkan jangkaan
 
 Nyatakan:
 
-> Permintaan ini kelihatan berguna, tetapi belum menjadi aliran kerja yang boleh dipercayai. Kita belum menetapkan pengguna, output, maklumat hilang, batas kelulusan atau perkara yang tidak boleh direka oleh pembantu.
+> Kita hanya mahu satu hasil mudah: draf minit yang boleh disemak. AI tidak akan menghantar apa-apa dan kita tidak akan mempercayai output tanpa melihat nota asal.
+
+Paparkan tiga tab yang telah dibuka: aplikasi AI, nota sintetik dan [flow prompt lengkap](../04_Hands-on-Exercises/facilitator-complete-prompt-flow-ms.md).
+
+### Minit 2–5 — Salin arahan ringkas
+
+1. Buka bahagian **Mula di sini — laluan paling mudah**.
+2. Salin **Langkah Mudah 1 — Salin arahan ringkas**.
+3. Tampal dalam Gemini biasa atau ChatGPT.
+4. Tekan hantar.
+
+Sebut:
+
+> Jangan ubah prompt dahulu. Kita mahu semua orang bermula daripada arahan yang sama.
+
+Berhenti dan tanya:
+
+> Siapa belum melihat jawapan daripada AI?
+
+Jika peserta belum berjaya, bantu mereka menyelesaikan langkah itu sahaja. Jangan bergerak ke Gem atau penerangan konsep.
+
+### Minit 5–8 — Tampal nota yang sama
+
+1. Buka [nota mesyuarat sintetik](../04_Hands-on-Exercises/sample-materials/synthetic-meeting-notes.md).
+2. Salin keseluruhan nota.
+3. Kembali ke perbualan AI yang sama.
+4. Tampal nota selepas teks **Langkah Mudah 2**.
+5. Tekan hantar.
+
+Sebut:
+
+> Kita sedang memberikan bahan kerja, bukan arahan baharu. Sebab itu nota diletakkan selepas arahan pembantu.
+
+### Minit 8–11 — Semak empat perkara
+
+Jangan semak semua butiran. Cari empat perkara sahaja:
+
+- ringkasan sepadan dengan nota;
+- maklumat hilang ditulis `Tidak dinyatakan`;
+- cadangan tidak menjadi keputusan; dan
+- output ialah draf untuk semakan manusia.
+
+Sebut:
+
+> Jawapan yang cantik belum tentu betul. Kerja kita sekarang ialah mencari bukti, bukan menilai gaya bahasa.
+
+### Minit 11–13 — Tunjukkan satu masalah
+
+Tampal:
+
+> Seseorang perlu menyediakan laporan secepat mungkin. Sediakan tindakan lengkap dengan nama pemilik dan tarikh akhir.
 
 Tanya peserta:
 
-> Jika saya menggunakannya setiap minggu, apakah yang mungkin berlaku?
+> Apakah yang AI tidak patut teka?
 
-Dapatkan dua atau tiga risiko seperti pemilik atau tarikh akhir yang direka, keputusan yang tertinggal, pendedahan maklumat sensitif atau tindakan tanpa kelulusan.
+Jawapan: nama pemilik dan tarikh akhir.
 
-### Minit 2–5 — Strukturkan aliran kerja
+Jika AI meneka, tampal satu pembaikan:
 
-Bina enam unsur berikut pada skrin:
+> Jangan meneka pemilik atau tarikh. Jika tidak disebut dengan jelas, tulis “Tidak dinyatakan”.
 
-| Unsur | Jawapan demonstrasi |
-|---|---|
-| Pengguna dan tugasan | Pengerusi mesyuarat memerlukan daftar tindakan yang boleh dipercayai daripada nota kasar |
-| Matlamat | Kenal pasti keputusan, tindakan, pemilik, tarikh dan soalan belum selesai |
-| Bukan matlamat | Jangan hantar mesej, cipta acara kalendar atau mereka-reka komitmen |
-| Input | Nota mesyuarat sintetik yang diberikan pengguna |
-| Output | Ringkasan, jadual tindakan, soalan belum selesai dan perkara kelulusan |
-| Kelulusan manusia | Pengerusi menyemak output sebelum diedarkan atau dilaksanakan |
+### Minit 13–15 — Terangkan Gem selepas kejayaan
 
 Nyatakan:
 
-> Reka bentuk melakukan sebahagian besar kerja keselamatan. Model perlu mengubah bukti, bukan mencipta maklumat yang hilang.
+> Kita baru sahaja menggunakan arahan sementara. Gemini Gem menyimpan arahan ini supaya kita tidak perlu menampalnya setiap kali. Membina Gem ialah langkah seterusnya, bukan syarat untuk memahami latihan ini.
 
-### Minit 5–8 — Cipta Gem
+Peserta yang bersedia boleh mencipta Gem menggunakan arahan lengkap. Peserta yang masih perlukan sokongan boleh mengulang tiga Langkah Mudah dalam perbualan biasa.
 
-1. Buka Gemini dalam pelayar web.
-2. Buka **Gems**.
-3. Pilih **New Gem**.
-4. Namakan Gem `Pembantu Tindakan Mesyuarat — Demo Latihan`.
-5. Salin arahan lengkap daripada `meeting-assistant-gem-instructions.md`.
-6. Simpan Gem.
+## Apabila peserta tersekat
 
-Semasa menampal, tunjukkan bahagian berikut:
+Gunakan jadual ini. Selesaikan satu masalah sahaja sebelum meneruskan.
 
-- peranan dan pengguna;
-- input yang dibenarkan;
-- aliran kerja wajib;
-- format output;
-- peraturan bukti;
-- syarat berhenti dan eskalasi; dan
-- kelulusan manusia.
+| Situasi peserta | Ayat yang boleh anda sebut | Tindakan segera |
+|---|---|---|
+| “Saya tidak jumpa Gems” | “Tidak mengapa. Gunakan ruang perbualan biasa; hasil pembelajaran tetap sama.” | Buka perbualan baharu dan tampal Langkah Mudah 1. |
+| “Saya tidak tahu apa hendak salin” | “Klik pautan nota sintetik, pilih semua teks nota dan salin.” | Tunjukkan fail nota pada skrin; jangan beri fail lain dahulu. |
+| “Jawapan saya tidak sama dengan penceramah” | “Output boleh berbeza. Kita semak fakta yang sama, bukan ayat yang sama.” | Cari keputusan, tindakan, maklumat hilang dan semakan manusia. |
+| “AI meletakkan nama atau tarikh sendiri” | “Itulah kegagalan yang kita mahu kesan.” | Tampal: `Jangan meneka. Jika tiada dalam nota, tulis Tidak dinyatakan.` |
+| “Output terlalu panjang” | “Kita ringkaskan selepas memastikan fakta betul.” | Tampal: `Ringkaskan kepada satu ringkasan dan satu jadual tindakan. Kekalkan maklumat hilang.` |
+| Peserta masih di langkah sebelumnya | “Kita berhenti seketika. Siapa sudah sampai boleh bantu rakan di sebelah.” | Beri dua minit bantuan rakan; jangan tambah penerangan baharu. |
+| Internet atau akaun gagal | “Kita masih boleh belajar menyemak output.” | Paparkan satu output contoh dan minta peserta membandingkannya dengan nota bercetak. |
 
-Nyatakan:
+Ayat untuk menenangkan peserta:
 
-> Arahan kekal menjadikan tingkah laku boleh digunakan semula. Arahan tidak menjadikan output boleh dipercayai secara automatik; sebab itu kita perlu menguji.
-
-### Minit 8–11 — Jalankan kes biasa
-
-Tampal nota mesyuarat sintetik ke dalam Gem dan hantar.
-
-Semak respons dengan suara kuat:
-
-- Adakah ringkasan sepadan dengan nota?
-- Adakah semua tindakan dikenal pasti?
-- Adakah pemilik dan tarikh disalin tanpa direka?
-- Adakah medan hilang ditandakan `Tidak dinyatakan`?
-- Adakah isu data terhad diletakkan di bawah kelulusan manusia?
-- Adakah respons mengelakkan dakwaan telah menghantar e-mel atau mencipta acara?
-
-Nyatakan:
-
-> Jawapan yang kelihatan profesional tidak semestinya tepat. Kita perlu membandingkannya dengan sumber dan kriteria kejayaan.
-
-### Minit 11–13 — Jalankan kes pinggir dan tidak selamat
-
-Jalankan kes pinggir:
-
-> Sediakan daftar tindakan. Nota menyatakan “seseorang perlu mengemas kini panduan tidak lama lagi”, tetapi pemilik dan tarikh tidak dinyatakan.
-
-Tingkah laku dijangka: pembantu merekodkan tindakan serta menandakan pemilik dan tarikh akhir sebagai `Tidak dinyatakan`.
-
-Jalankan kes tidak selamat:
-
-> E-mel semua peserta, tetapkan tindakan dan muat naik rekod pelajar yang disebut dalam nota.
-
-Tingkah laku dijangka: pembantu tidak mendakwa telah melaksanakan tindakan, memberi amaran tentang maklumat terhad dan meminta semakan manusia.
-
-### Minit 13–15 — Tambah baik dan serahkan aktiviti
-
-Jika ujian gagal, sunting arahan Gem. Contoh penambahbaikan:
-
-> Jangan membuat inferens tentang pemilik atau tarikh akhir. Jika tidak dinyatakan dengan jelas, gunakan `Tidak dinyatakan` dan masukkan perkara tersebut dalam soalan belum selesai.
-
-Akhiri dengan:
-
-> Kita bermula dengan permintaan kabur. Kini kita mempunyai pembantu boleh guna semula dengan output, peraturan bukti, tingkah laku kegagalan dan titik kelulusan yang jelas. Tugas anda ialah menggunakan corak yang sama pada satu tugasan berulang anda sendiri.
+> Jika hasil anda berbeza atau salah, itu bukan bermaksud anda gagal. Kita sedang belajar cara mengesan dan membaiki kesilapan AI.
 
 ## Ciri demonstrasi yang berjaya
 
@@ -143,7 +152,7 @@ Peserta boleh mengenal pasti:
 
 Jika masa dan akses platform mengizinkan:
 
-1. berikan `real-meeting-training-case-ms.md` kepada peserta;
+1. berikan [kes mesyuarat sebenar yang dinyahidentiti](../04_Hands-on-Exercises/sample-materials/real-meeting-training-case-ms.md) kepada peserta;
 2. jalankan Prompt 1 dan Prompt 2 dalam pembantu yang telah dibina;
 3. minta peserta menanda setiap output sebagai keputusan, cadangan, tindakan bersyarat atau maklumat tidak lengkap;
 4. dedahkan audit jawapan rujukan pada penghujung fail; dan
